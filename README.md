@@ -31,7 +31,7 @@ Here's what the above code is doing:
 *Note: the "Explain Python Code" section is written with assistence from OpenAI GPT.*
 
 ## Output 
-The file [explain_python_code/main.py.output](./output/explain_python_code/main.py.output) contains reponse from OpenAI, that attempts to explain the code in https://github.com/openai/gpt-discord-bot/blob/main/src/main.py
+The file [output/explain_python_code/main.py.output](./output/explain_python_code/main.py.output) contains reponse from OpenAI, that attempts to explain the code in https://github.com/openai/gpt-discord-bot/blob/main/src/main.py
 
 ---
 
