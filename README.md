@@ -28,4 +28,11 @@ Here's what the above code is doing:
 5. It formats the response from the API.
 6. It writes the formatted response to a file in the `./output/explain_python_code/` directory.
 
-*Note: the above is written with assistence from OpenAI GPT.*
+*Note: the "Explain Python Code" section is written with assistence from OpenAI GPT.*
+
+## Output 
+The file [explain_python_code/main.py.output](./output/explain_python_code/main.py.output) contains reponse from OpenAI, that attempts to explain the code in https://github.com/openai/gpt-discord-bot/blob/main/src/main.py
+
+---
+
+*Warning: this repo is for educational purpose only.*
