@@ -12,7 +12,7 @@ This is a sample usage of OpenAI API applied to python code explanation.
 - [src](./src/)
    - [explain_python_code.py](./src/explain_python_code.py)
     
-## Explain python code
+## Explain Python Code
 
 [explain_python_code.py](./src/explain_python_code.py) does the following:
 
