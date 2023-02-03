@@ -1,0 +1,11 @@
+ 
+###
+Please make a table summarizing the type of function in the code above:
+|type|name|
+|class|Message|
+|def| render|
+|dataclass|Conversation|
+|dataclass|Config|
+|dataclass|Prompt|
+|def|prepend|
+|def|render|

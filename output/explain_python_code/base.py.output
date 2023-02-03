@@ -1,0 +1,14 @@
+ 
+###
+Here's what the above class is doing:
+1.
+The Message class is a dataclass that is frozen, meaning that it cannot be changed. It has two attributes, user and text. The render method returns a string with the user and text. 
+
+2.
+The Conversation class is a dataclass that is not frozen. It has one attribute, messages, which is a list of Message objects. The prepend method adds a message to the beginning of the list and the render method returns a string with all the messages separated by a separator token. 
+
+3.
+The Config class is a dataclass that is frozen. It has three attributes, name, instructions, and example_conversations. 
+
+4.
+The Prompt class is a dataclass that is frozen. It has four attributes, header, examples, and convo. The render method returns a string with the header, example conversations, and the current conversation.
