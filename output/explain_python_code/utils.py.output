@@ -1,0 +1,17 @@
+ 
+###
+Here's what the above code is doing:
+1.
+The discord_message_to_message function takes a DiscordMessage object and returns a Message object. This is used to convert a Discord message into a Message object that can be used by the bot.
+
+2.
+The split_into_shorter_messages function takes a string and splits it into shorter messages that can be sent in a reply.
+
+3.
+The is_last_message_stale function checks if the last message sent in a thread is stale. This is used to determine if the bot should respond to a message or not.
+
+4.
+The close_thread function takes a discord.Thread object and closes the thread. This is used to close threads when the context limit is reached.
+
+5.
+The should_block function takes a discord.Guild object and checks if the guild is allowed to use the bot. This is used to prevent the bot from being used in servers that are not allowed.

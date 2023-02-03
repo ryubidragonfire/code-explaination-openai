@@ -1,0 +1,22 @@
+ 
+###
+Here's what the above code is doing:
+1.
+It is loading the config.yaml file which contains the configuration settings for the bot.
+2.
+It is setting the environment variables for the Discord Bot Token, Discord Client ID, and OpenAI API Key.
+3.
+It is setting the list of allowed server IDs.
+4.
+It is setting the dictionary of server to moderation channel.
+5.
+It is setting the bot invite URL.
+6.
+It is setting the moderation values for blocked and flagged messages.
+7.
+It is setting the seconds delay for receiving messages.
+8.
+It is setting the maximum number of thread messages.
+9.
+It is setting the activate and inactivate thread prefixes.
+10. It is setting the maximum characters per reply message.

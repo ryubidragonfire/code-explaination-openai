@@ -1,0 +1,8 @@
+ 
+###
+Here's what the above code is doing:
+1.
+The generate_completion_response function is used to generate a response from OpenAI's completion API. It takes in a list of messages and a user, and returns a CompletionData object containing the status of the response, the reply text, and the status text.
+
+2.
+The process_response function is used to process the response from the completion API. It takes in a user, a thread, and a CompletionData object, and then processes the response accordingly. If the response is OK or flagged by moderation, it will send the reply text to the thread. If the response is blocked by moderation, it will send a message to the thread indicating that the response has been blocked. If the response is too long, it will close the thread. If the response is invalid, it will send an error message to the thread.
