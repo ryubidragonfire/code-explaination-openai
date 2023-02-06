@@ -1,0 +1,35 @@
+ 
+    ###
+    Here's what the above code is doing:
+    1.
+    The bot is created using the discord.Client() class.
+    2.
+    The bot is given a command prefix of "!". This means that all commands start with the "!" character.
+    3.
+    The bot is given a command of "chat". This means that the command "!chat" can be used to start a chat.
+    4.
+    The bot is given a command of "help". This means that the command "!help" can be used to show all commands.
+    5.
+    The bot is given a command of "ping". This means that the command "!ping" can be used to check if the bot is online.
+    6.
+    The bot is given a command of "roll". This means that the command "!roll" can be used to roll a dice.
+    7.
+    The bot is given a command of "summon". This means that the command "!summon" can be used to summon the bot to a voice channel.
+    8.
+    The bot is given a command of "play". This means that the command "!play" can be used to play a song.
+    9.
+    The bot is given a command of "stop". This means that the command "!stop" can be used to stop playing a song.
+    10.
+    The bot is given a command of "pause". This means that the command "!pause" can be used to pause playing a song.
+    11.
+    The bot is given a command of "resume". This means that the command "!resume" can be used to resume playing a song.
+    12.
+    The bot is given a command of "queue". This means that the command "!queue" can be used to show the song queue.
+    13.
+    The bot is given a command of "skip". This means that the command "!skip" can be used to skip a song.
+    14.
+    The bot is given a command of "volume". This means that the command "!volume" can be used to change the volume of the song.
+    15.
+    The bot is given a command of "now_playing". This means that the command "!now_playing" can be used to show the currently playing song.
+    16.
+   

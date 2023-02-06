@@ -1,0 +1,32 @@
+ 
+    ###
+    Here's what the above code is doing:
+    1.
+    Loads the .env file, which contains the bot token and other secrets.
+    2.
+    Loads the config.yaml file, which contains the bot name, instructions, and example conversations.
+    3.
+    Sets the bot name, instructions, and example conversations.
+    4.
+    Sets the bot token, client ID, and OpenAI API key.
+    5.
+    Sets the allowed server IDs.
+    6.
+    Sets the server to moderation channel mapping.
+    7.
+    Sets the bot invite URL.
+    8.
+    Sets the moderation values for blocked messages.
+    9.
+    Sets the moderation values for flagged messages.
+    10.
+    Sets the seconds delay for receiving messages.
+    11.
+    Sets the maximum number of messages in a thread.
+    12.
+    Sets the activate thread prefix.
+    13.
+    Sets the inactivate thread prefix.
+    14.
+    Sets the maximum number of characters per reply message.
+    

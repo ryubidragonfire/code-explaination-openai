@@ -1,0 +1,17 @@
+ 
+    ###
+    Here's what the above code is doing:
+    1.
+    The discord_message_to_message() function takes a DiscordMessage object as an argument and returns a Message object. It checks if the message is a thread starter message and if it has an embed with a field. If it does, it returns a Message object with the field's name as the user and the field's value as the text. Otherwise, it returns a Message object with the message's author's name as the user and the message's content as the text.
+    
+    2.
+    The split_into_shorter_messages() function takes a string as an argument and returns a list of strings. It splits the string into chunks of MAX_CHARS_PER_REPLY_MSG characters and returns the list of chunks.
+    
+    3.
+    The is_last_message_stale() function takes an interaction message, a last message, and a bot ID as arguments and returns a boolean. It checks if the last message is not the same as the interaction message and if the last message's author is not the bot. If both conditions are true, it returns True, otherwise it returns False.
+    
+    4.
+    The close_thread() function takes a discord.Thread object as an argument and closes the thread. It edits the thread's name to the INACTIVATE_THREAD_PREFIX, sends an embed with a message saying the thread is closed, and then archives and locks the thread.
+    
+    5.
+    The should_block() function takes a discord.Guild object as an argument and returns a boolean. It checks if the guild is None, and if it is, it logs that DM's are not supported and returns True. Otherwise, it checks if the guild's ID is in the ALLOWED_SERVER_IDS list and if it is not, it logs that the guild is not allowed and returns True. If neither of these conditions are true, it returns False.

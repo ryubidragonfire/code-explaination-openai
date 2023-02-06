@@ -1,0 +1,10 @@
+ 
+    ###
+    Here's what the above code is doing:
+    1.
+    If the message is flagged, it will send a message to the moderation channel.
+    2.
+    If the message is blocked, it will send a message to the moderation channel.
+    3.
+    If the message is neither flagged nor blocked, it will do nothing.
+    

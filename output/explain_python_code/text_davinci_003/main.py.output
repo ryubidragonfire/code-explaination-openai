@@ -1,0 +1,11 @@
+ 
+    ###
+    Here's what the above code is doing:
+    1.
+    The first part of the code is setting up the bot. This includes setting up the logging, intents, and the command tree. 
+    
+    2.
+    The next part of the code is the chat_command. This command is used to create a new thread for conversation. It also moderates the message and sends the response.
+    
+    3.
+    The last part of the code is the on_message event. This event is triggered when a message is sent in a thread. It moderates the message and sends the response.

@@ -1,0 +1,23 @@
+ 
+    ###
+    Here's what the above code is doing:
+    1.
+    We're loading the config.yaml file, which contains all the configuration settings for our bot.
+    2.
+    We're setting up the environment variables for our bot, such as the Discord Bot Token, the Discord Client ID, and the OpenAI API Key.
+    3.
+    We're setting up the list of allowed server IDs, which is used to restrict the bot to certain servers.
+    4.
+    We're setting up the dictionary of server IDs to moderation channels, which is used to send moderation messages to the appropriate channels.
+    5.
+    We're setting up the bot invite URL, which is used to invite the bot to a server.
+    6.
+    We're setting up the moderation values for blocked and flagged messages, which are used to determine how severe a message is.
+    7.
+    We're setting up the seconds delay for receiving messages, which is used to give the bot time to process multiple messages.
+    8.
+    We're setting up the maximum number of messages in a thread, which is used to limit the number of messages in a thread.
+    9.
+    We're setting up the activate and inactivate thread prefixes, which are used to indicate whether a thread is active or not.
+    10.
+    We're setting up the maximum characters per reply message, which is used to limit the length of messages sent by the bot.

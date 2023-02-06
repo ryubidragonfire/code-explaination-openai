@@ -1,0 +1,14 @@
+ 
+    ###
+    Here's what the above code is doing:
+    1.
+    The first function, moderate_message, takes in a message and a user and returns a tuple of two strings. The first string is flagged_str and the second string is blocked_str. This function uses the OpenAI API to moderate the message and determine if it contains any offensive content. If it does, it will return a string with the category and score of the offensive content. 
+    
+    2.
+    The second function, fetch_moderation_channel, takes in a guild and returns a discord.abc.GuildChannel object. This function uses the SERVER_TO_MODERATION_CHANNEL dictionary to find the channel ID of the moderation channel for the given guild. 
+    
+    3.
+    The third function, send_moderation_flagged_message, takes in a guild, user, flagged_str, message, and url. This function uses the fetch_moderation_channel function to get the moderation channel for the given guild. If the flagged_str is not empty, it will send a message to the moderation channel with the user, flagged_str, message, and url. 
+    
+    4.
+    The fourth function, send_moderation_blocked_message, takes in a guild, user, blocked_str, and message. This function uses the fetch_moderation_channel function to get the moderation channel for the given guild. If the blocked_str is not empty, it will send a message to the moderation channel with the user, blocked_str, and message.

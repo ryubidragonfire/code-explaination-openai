@@ -1,0 +1,60 @@
+ 
+    ###
+    Here's what the above code is doing:
+    1.
+    @dataclass(frozen=True)
+    class Message:
+        user: str
+        text: Optional[str] = None
+
+    This is a dataclass. It's a class that has some special properties.
+    The first is that it has a __init__ method that takes all the arguments
+    in the class definition and assigns them to the class.
+    So, if you do:
+    m = Message("user", "text")
+    m.user will be "user" and m.text will be "text"
+
+    The second is that it has a __repr__ method that returns a string
+    representation of the class.
+    So, if you do:
+    print(m)
+    it will print:
+    Message(user="user", text="text")
+
+    The third is that it has a __eq__ method that compares two instances
+    of the class.
+    So, if you do:
+    m == Message("user", "text")
+    it will return True
+
+    The fourth is that it has a __hash__ method that returns a hash of the
+    class.
+    So, if you do:
+    hash(m)
+    it will return a hash of the class.
+
+    The fifth is that it has a __copy__ method that returns a copy of the
+    class.
+    So, if you do:
+    m2 = copy.copy(m)
+    m2 will be a copy of m.
+
+    The sixth is that it has a __deepcopy__ method that returns a deep copy
+    of the class.
+    So, if you do:
+    m2 = copy.deepcopy(m)
+    m2 will be a deep copy of m.
+
+    The seventh is that it has a __getnewargs__ method that returns the
+    arguments to the class.
+    So, if you do:
+    m.__getnewargs__()
+    it will return ("user", "text")
+
+    The eighth is that it has a __getstate__ method that returns the state
+    of the class.
+    So, if you do:
+    m.__getstate__()
+    it will return {"user": "user", "text": "text"}
+
+    The ninth is that

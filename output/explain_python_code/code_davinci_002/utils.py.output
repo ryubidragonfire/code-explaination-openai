@@ -1,0 +1,20 @@
+ 
+    ###
+    Here's what the above code is doing:
+    1.
+    if guild is None:
+        # dm's not supported
+        logger.info(f"DM not supported")
+        return True
+    This is checking if the guild is None. If it is, it means that the message was sent in a DM.
+    If it was sent in a DM, we don't want to respond to it, so we return True.
+    2.
+    if guild.id and guild.id not in ALLOWED_SERVER_IDS:
+        # not allowed in this server
+        logger.info(f"Guild {guild} not allowed")
+        return True
+    This is checking if the guild.id is not in the ALLOWED_SERVER_IDS list. If it isn't, we don't want to respond to it, so we return True.
+    3.
+    return False
+    If the message was not sent in a DM and the guild.id is in the ALLOWED_SERVER_IDS list, we return False.
+    

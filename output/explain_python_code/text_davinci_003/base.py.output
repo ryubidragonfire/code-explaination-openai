@@ -1,0 +1,13 @@
+ 
+    ###
+    Here's what the above code is doing:
+    1.
+    We are creating a dataclass called Message which has two attributes, user and text.
+    2.
+    We are creating a dataclass called Conversation which has one attribute, messages.
+    3.
+    We are creating a dataclass called Config which has three attributes, name, instructions, and example_conversations.
+    4.
+    We are creating a dataclass called Prompt which has three attributes, header, examples, and convo.
+    5.
+    We are creating a function called render which takes in a Prompt object and returns a string representation of the Prompt.

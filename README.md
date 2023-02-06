@@ -30,6 +30,13 @@ Here's what the above code is doing:
 
 *Note: the "Explain Python Code" section is written with assistence from OpenAI GPT.*
 
+## Usage
+Example: 
+
+`python ./src/explain_python_code.py -i ../gpt-discord-bot/src/ -o ./output/explain_python_code/text_davinci_003/ -m text-davinci-003`
+
+`python ./src/explain_python_code.py -i ../gpt-discord-bot/src/ -o ./output/explain_python_code/code_davinci_002/ -m code-davinci-002`
+
 ## Output 
 The file [output/explain_python_code/main.py.output](./output/explain_python_code/main.py.output) contains reponse from OpenAI, that attempts to explain the code in https://github.com/openai/gpt-discord-bot/blob/main/src/main.py
 
