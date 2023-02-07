@@ -1,8 +1,9 @@
-# tutorial-explain-python-code-with-gpt
-This is a sample usage of OpenAI API applied to python code explanation.
+# Azure OpenAI GPT Samples
+This repository contains sample usages of OpenAI applied to:
+- python code explanation
 
 ## Repo Structure
-`tutorial-explain-python-code-with-gpt`
+`azure-openai`
 - [notebooks](./notebooks/)
     - [explain_python_code.ipynb](./notebooks/explain_python_code.ipynb)
     - [extract_entities_from_code.ipynb](./notebooks/extract_entities_from_code.ipynb)
